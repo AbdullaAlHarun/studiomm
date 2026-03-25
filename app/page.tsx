@@ -1,7 +1,10 @@
+import Hero from "@/components/sections/hero";
+
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-black text-white">
-      <h1 className="text-4xl font-bold">StudioMM</h1>
+    <main className="bg-[#f7f7f2] text-[#111111]">
+      <Hero />
     </main>
   );
 }
