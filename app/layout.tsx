@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/layout/navbar";
 
 export const metadata: Metadata = {
-  title: "StudioMM",
+  title: "Ommino",
   description: "Creative digital agency",
 };
 
