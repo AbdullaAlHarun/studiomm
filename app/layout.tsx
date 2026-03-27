@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/layout/navbar";
+import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   title: "Ommino",
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body className="bg-[#f7f7f2] text-[#111111]">
         <Navbar />
         {children}
+        <Footer/>
       </body>
     </html>
   );
